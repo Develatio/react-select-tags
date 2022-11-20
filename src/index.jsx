@@ -8,6 +8,7 @@ import { Notificator } from "./components/Notificator";
 
 import { classSelectors } from "./utils/selectors";
 import { filter, validator } from "./utils/functions";
+import "./index.scss";
 
 export default class ReactSelectTags extends React.Component {
   constructor(props) {
